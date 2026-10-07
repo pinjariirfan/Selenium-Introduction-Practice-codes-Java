@@ -12,16 +12,16 @@ public class AutoSugeestiveDropdown {
 		WebDriver driver = new EdgeDriver();
 		driver.get("https://rahulshettyacademy.com/dropdownsPractise/");
 		driver.findElement(By.id("autosuggest")).sendKeys("ind");
-		Thread.sleep(3000);
-		List<WebElement> options =driver.findElements(By.cssSelector("li[class='ui-menu-item'] a"));
-		
-		for (WebElement   option : options) {
-			if(option.getText().equalsIgnoreCase("India")) {
+		Thread.sleep(2000);
+		List<WebElement> options = driver.findElements(By.cssSelector("li[class='ui-menu-item'] a"));
+
+		for (WebElement option : options) {
+			if (option.getText().equalsIgnoreCase("India")) {
 				option.click();
 				break;
 			}
 		}
-		
+
 	}
 
 }
