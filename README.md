@@ -10,6 +10,6 @@ What's inside
 - Small test scenarios on practice sites
 
 Stack
-Java · Selenium WebDriver · Eclipse · ChromeDriver / EdgeDriver
+Java · Selenium WebDriver · Eclipse · ChromeDriver / EdgeDriver.
 
 
